@@ -11,6 +11,7 @@ import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { Principal } from "./views/principal";
 import { Pokemones } from "./views/pokemones";
+import { Unidad } from "./views/unidad";
 
 //create your first component
 const Layout = () => {
@@ -27,7 +28,12 @@ const Layout = () => {
 						<Route exact path="/">
 							<Principal/>
 						</Route>
-						
+						<Route exact path="/Pokemones">
+							<Pokemones/>
+						</Route>
+						<Route exact path="/Unidad">
+							<Unidad/>
+						</Route>
 					</Switch>
 					<Footer />
 				

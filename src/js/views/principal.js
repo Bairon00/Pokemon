@@ -2,9 +2,10 @@ import { checkPropTypes } from "prop-types";
 import React from "react";
 import { Card } from "../component/card"; 
 
-export const Principal = () => (
+export const Principal = () => 
+        (
 	<div className="container ">
-        <div className="row">
+        <div className="row" id="primero">
         <Card url="https://pm1.narvii.com/6217/c20f798e4c5829503e2827350df3a55be31110a8_hq.jpg"
         bt="Pokemones"
         />
@@ -13,4 +14,4 @@ export const Principal = () => (
         />
         </div>
 	</div>
-);
+        );
