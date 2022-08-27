@@ -59,12 +59,17 @@ width: 300px;}
     background-size:cover;
 }
 #evoluciones:hover{
-    box-shadow:0px 0px 20px 20px rgb(255, 255, 255);
-}
-.aaa{
-    margin-bottom: 0px;
+    box-shadow:0px 0px 20px 20px rgb(255, 255, 255) inset;
 }
 
+.bot{ 
+    margin-top: 180px;
+    }
+.bot2{
+    margin-top: 100px;
+    margin-left:650px ;
+    width: 400px;
+}
 /*@keyframes anim{
     100% {background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJo6U5zWw48dHmnDjfBf8O_k29NcxnR2oyZD58PD8P8BoSrKIGgdw7pRlzKnbDBcWj0co&usqp=CAU) ;} 
     75% {background-image:url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObT7lMcAT9_wGT0AbSCYce3joGI7645om6FnjnZwWy6CofkUnzOzs0k0_WB7Gwsxaark&usqp=CAU);} 
