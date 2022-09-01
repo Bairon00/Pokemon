@@ -70,6 +70,19 @@ width: 300px;}
     margin-left:650px ;
     width: 400px;
 }
+.horizontal-scrollable >.row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.horizontal-scrollable >.row >.col-4 {
+    display: inline-block;
+    float: none;
+}
+.aaa{height: 400px;}
+
+
+
+
 /*@keyframes anim{
     100% {background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJo6U5zWw48dHmnDjfBf8O_k29NcxnR2oyZD58PD8P8BoSrKIGgdw7pRlzKnbDBcWj0co&usqp=CAU) ;} 
     75% {background-image:url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObT7lMcAT9_wGT0AbSCYce3joGI7645om6FnjnZwWy6CofkUnzOzs0k0_WB7Gwsxaark&usqp=CAU);} 
