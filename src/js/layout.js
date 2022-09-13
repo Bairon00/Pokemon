@@ -14,6 +14,7 @@ import { Pokemones } from "./views/pokemones";
 import { Unidad } from "./views/unidad";
 import { Especies } from "./views/especies";
 import { Prueba } from "./views/prueba";
+import { Especies2 } from "./views/Especies2";
 
 //create your first component
 const Layout = () => {
@@ -38,8 +39,11 @@ const Layout = () => {
 						<Route exact path="/Especies">
 							<Especies/>
 						</Route>
-						<Route exact path="/Prueba">
+						<Route exact path="/Prueba/:name">
 							<Prueba/>
+						</Route>
+						<Route exact path="/Especies2">
+							<Especies2/>
 						</Route>
 					</Switch>
 					<Footer />
