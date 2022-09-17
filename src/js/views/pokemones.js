@@ -10,7 +10,7 @@ export const Pokemones=()=>{
 
     const {store,actions}=useContext(Context);
     useEffect(()=>{
-        actions
+        actions.getPokemones();
     },[])
    return(
     <div className="container ">
@@ -19,7 +19,9 @@ export const Pokemones=()=>{
                 return <Card 
                 titulo={obj.name}
                 ruta ={"/Unidad/"+ obj.name}
-                
+                url="https://pm1.narvii.com/6217/c20f798e4c5829503e2827350df3a55be31110a8_hq.jpg"
+                bt="¡Atrápalos Ya!"
+
                 />
             })}
            

@@ -1,6 +1,7 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
+			Favoritos:[],
 			Pokemones:[],
 			demo: [
 				{
@@ -44,6 +45,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				//reset the global store
 				setStore({ demo: demo });
+			},
+			añadirFav: (item) =>{
+				const store = getStore();
+				setStore({ Favoritos : [...store.Favoritos, item]})
 			}
 		}
 	};
