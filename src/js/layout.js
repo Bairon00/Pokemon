@@ -15,6 +15,7 @@ import { Unidad } from "./views/unidad";
 import { Prueba } from "./views/prueba";
 import { Especies2 } from "./views/Especies2";
 import { Favoritos } from "./views/favoritos";
+import { Card1}  from "./component/card1";
 
 //create your first component
 const Layout = () => {
